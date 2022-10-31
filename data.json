@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Microfono",
+        "precio": 25000,
+        "impuesto": 21,
+        "stock": 30
+    },
+    {
+        "id": 2,
+        "nombre": "Monitor",
+        "precio": 80000,
+        "impuesto": 0,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "nombre": "Mouse",
+        "precio": 20000,
+        "impuesto": 21,
+        "stock": 15
+    },
+    {
+        "id": 4,
+        "nombre": "Parlantes",
+        "precio": 50000,
+        "impuesto": 27,
+        "stock": 25
+    },
+    {
+        "id": 5,
+        "nombre": "Teclado",
+        "precio": 30000,
+        "impuesto": 0,
+        "stock": 35
+    }
+]

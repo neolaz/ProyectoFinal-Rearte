@@ -1,0 +1,300 @@
+/* Common ---------------------------------------------*/
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bgHeaderFooter {
+  background-color: #272727;
+}
+
+.containerCustom {
+  box-sizing: border-box;
+  max-width: none;
+  padding: 10px 15px;
+}
+
+.containerHeader {
+  box-sizing: border-box;
+  max-width: none;
+  padding: 0px 0px;
+}
+
+.containerFlex {
+  display: flex;
+}
+
+.title, .textBrand {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.textGeneric {
+  font-size: 1em;
+}
+
+.imgResponsive {
+  width: 100%;
+  height: auto;
+}
+
+.headerMenu {
+  justify-content: flex-end;
+}
+
+.navbar-nav .nav-link.active {
+  color: #FFFFFF;
+}
+
+.brandLogo {
+  transition-timing-function: ease;
+  transition: 0.4s;
+}
+.brandLogo:hover {
+  opacity: 0.5;
+  transform: scale(0.9);
+  transition-timing-function: ease;
+  transition: 0.4s;
+}
+
+.textBrand {
+  color: #30fdb0;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.imgSocialMedia {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  transition-timing-function: ease;
+  transition: 0.4s;
+}
+.imgSocialMedia:hover {
+  opacity: 0.5;
+  transform: scale(0.7);
+  transition-timing-function: ease;
+  transition: 0.4s;
+}
+.fullHeight {
+  height: 100%;
+}
+.alignCenter{
+  align-items: center;
+}
+.alignRigth{
+  text-align: right;
+}
+.inputNumber{
+  text-align: right;
+  height: 30px;
+  padding: 3px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #2f2f2f;
+  color: #c6c6c6;
+}
+.buttonGrid{
+  transition-timing-function: ease;
+  transition: 0.4s;
+  text-decoration: none;
+  padding-right: 10px;
+}
+.buttonGrid:hover{
+  opacity: 0.5;
+  transform: scale(0.98);
+  transition-timing-function: ease;
+  transition: 0.4s;
+}
+.gridRowColor{
+  background-color: #2f2f2f
+}
+.displayInlineBlock{
+  display: inline-block;
+}
+
+/* Header ---------------------------------------------*/
+header nav.navbar-expand-lg div.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav.navbar-expand-lg div.container-fluid button span.navbar-toggler-icon {
+  background-image: url(../img/menu.svg);
+}
+header nav.navbar-expand-lg div.container-fluid button .navbar-toggler:focus {
+  box-shadow: none;
+}
+header nav.navbar-expand-lg div.container-fluid button .navbar-toggler:hover {
+  opacity: 0.5;
+}
+header nav.navbar-expand-lg div.container-fluid div {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: initial;
+}
+header nav.navbar-expand-lg div.container-fluid div.collapse:not(.show) {
+  display: none;
+}
+header nav div a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1em;
+}
+header nav div a img {
+  width: 40px;
+  height: 40px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li a.nav-link {
+  text-decoration: none;
+  color: #30fdb0;
+}
+header nav ul li a.nav-link:hover {
+  text-decoration: none;
+  color: #30fdb0;
+  opacity: 0.5;
+}
+
+/* Footer ---------------------------------------------*/
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+/* Contacto ---------------------------------------------*/
+.contacto {
+  background-color: #272727;
+}
+
+.contacto h1{
+  text-align: center;
+}
+
+.contacto h2{
+  text-align: center;
+}
+
+.contacto form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contacto hr {
+  border: 1px solid #30fdb0;
+  opacity: 1;
+}
+.contacto form input,
+.contacto form select{
+  height: 30px;
+  padding: 3px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #403f3f;
+  color: #fff;
+  border: none;
+}
+.contacto form label,
+.contacto form legend {
+  color: #30fdb0;
+}
+.contacto form .containerInput {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.contacto form .containerInput.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contacto form .containerSelectableOptions {
+  display: flex;
+  padding: 10px 0px;
+}
+.contacto form .containerSelectableOptions div {
+  flex-direction: row;
+  margin-right: 20px;
+}
+.contacto form .containerSelectableOptions div label {
+  color: #FFFFFF;
+  margin-right: 15px;
+}
+.contacto form .containerMessage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contacto form .buttonCancelar{
+  text-align: center;
+  margin-top: 10px;
+  background-color: #272727;
+  color: #30fdb0;
+  font-weight: 500;
+  border: 2px solid #30fdb0 ;
+  transition-timing-function: ease;
+  transition: 0.4s;
+  border-radius: 5px;
+  padding: 5px;
+}
+.contacto form .buttonCancelar:hover {
+  opacity: 0.5;
+  transform: scale(0.98);
+  transition-timing-function: ease;
+  transition: 0.4s;
+}
+.contacto form .buttonGreen{
+  text-align: center;
+  margin-top: 10px;
+  background-color: #30fdb0;
+  color: #272727;
+  font-weight: 500;
+  border: none;
+  transition-timing-function: ease;
+  transition: 0.4s;
+  border-radius: 5px;
+  padding: 5px;
+}
+.contacto form .buttonGreen:hover {
+  opacity: 0.5;
+  transform: scale(0.98);
+  transition-timing-function: ease;
+  transition: 0.4s;
+}
+
+.contacto form .flex .textTotal{
+  font-size: 1.5em;
+} 
+.contacto form .flex .textTotal:first-child{
+  color:#30fdb0;
+  padding-right: 15px;
+} 
+.contacto .listContainer{
+  justify-content: center;
+  text-align: center;
+}
+.contacto .listContainer span{
+  color: #30fdb0;
+  padding: 10px 0;
+}
+.contacto #documentoRow p{
+  margin-bottom: 0px;
+}
